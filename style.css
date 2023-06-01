@@ -2,6 +2,7 @@
 @media (min-width: 375px) {
   body {
     background-image: url("images/header-illsutration-mobile.svg");
+    background-repeat: no-repeat
   }
 
   .nav-item {
@@ -14,8 +15,8 @@
   }
 
   .nav-toggle {
-    width: 30%;
-    height: 10%;
+    width: 23%;
+    height: 8%;
   }
 
   .main-container {
@@ -42,7 +43,7 @@
   #main-span2 {
     display: block;
     color: #36b37e;
-    font-size: 48px;
+    font-size: 38px;
     justify-self: center;
   }
 
@@ -63,10 +64,22 @@
     color: #172b4d;
   }
 
-  #main-item3 {
+  #main-item3 ul{
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-self:  baseline;
+    list-style-type: none;
+
+    
+  }
+  #main-item3 a{
+    text-decoration: none;
+
+  }
+  #main-item3 li{
+    padding: 10px;
+
   }
 }
 
@@ -140,7 +153,7 @@
   .main-container {
     display: flex;
     flex-wrap: wrap;
-    top: 20%;
+    top: 40%;
     height: 50%;
     position: absolute;
     width: 98%;

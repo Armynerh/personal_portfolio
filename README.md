@@ -71,8 +71,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
+  git clone git@github.com:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
