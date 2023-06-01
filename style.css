@@ -18,7 +18,7 @@
     height: 10%;
   }
 
-  .main-container{
+  .main-container {
     display: flex;
     flex-wrap: wrap;
     top: 10%;
