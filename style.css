@@ -64,22 +64,20 @@
     color: #172b4d;
   }
 
-  #main-item3 ul{
+  #main-item3 ul {
     display: flex;
     align-items: center;
     justify-content: center;
     justify-self:  baseline;
-    list-style-type: none;
-
-    
+    list-style-type: none;  
   }
-  #main-item3 a{
+
+  #main-item3 a {
     text-decoration: none;
-
   }
-  #main-item3 li{
-    padding: 10px;
 
+  #main-item3 li {
+    padding: 10px;
   }
 }
 
