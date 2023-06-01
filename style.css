@@ -6,7 +6,7 @@
   .nav-bar {
     display: flex;
     justify-content: end;
-}
+  }
 
   .nav-toggle {
     width: 20%;
