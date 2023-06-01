@@ -1,6 +1,6 @@
 @media (min-width: 375px) {
-.nav-item{
-  display: none;
+  .nav-item {
+    display: none;
   }
 
   .nav-bar {
@@ -8,18 +8,18 @@
     justify-content: end;
 }
 
-.nav-toggle {
-  width: 20%;
-  height: 10%;
+  .nav-toggle {
+    width: 20%;
+    height: 10%;
   }
 }
 
 @media (min-width: 768px) {
-  .container{
+  .container {
     position: absolute;
     width: 98%;
     height: 15%;
-    }
+  }
 
   .nav-bar {
     display: flex;
@@ -37,7 +37,7 @@
     display: flex;
     flex-direction: row;
     align-self: center;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -49,7 +49,7 @@
   #box2 {
     display: flex;
     flex-direction: row;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -57,12 +57,12 @@
     align-self: center;
     text-align: center;
     color: #344563;
-}
+  }
 
   #box3 {
     display: flex;
     flex-direction: row;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
