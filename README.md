@@ -59,17 +59,6 @@ OPTIONAL SECTIONS:
 
 
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-
-- [Live Demo Link](https://google.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 To get a local copy up and running, follow these steps.
 
 
@@ -103,7 +92,6 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
 - [Works Section ] **[new_feature_1]**
 - [About Section] **[new_feature_2]**
@@ -124,8 +112,6 @@ Feel free to check the [issues page](../../issues/).
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
 
 If you like this project follow me!
 
