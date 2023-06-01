@@ -1,16 +1,16 @@
 @media (min-width: 375px) {
-  .nav-item{
-    display: none;
+.nav-item{
+  display: none;
   }
 
   .nav-bar {
     display: flex;
     justify-content: end;
-  }
+}
 
-  .nav-toggle {
-    width: 20%;
-    height: 10%;
+.nav-toggle {
+  width: 20%;
+  height: 10%;
   }
 }
 
