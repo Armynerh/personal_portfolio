@@ -2,7 +2,7 @@
 @media (min-width: 375px) {
   body {
     background-image: url("images/header-illsutration-mobile.svg");
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
   }
 
   .nav-item {
@@ -68,8 +68,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-self:  baseline;
-    list-style-type: none;  
+    justify-self: baseline;
+    list-style-type: none;
   }
 
   #main-item3 a {
