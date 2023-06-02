@@ -2,7 +2,9 @@
 @media (min-width: 375px) {
   body {
     background-image: url("images/header-illsutration-mobile.svg");
-    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
   }
 
   .nav-item {
