@@ -256,7 +256,7 @@
     position: relative;
   }
 
-   #about-box {
+  #about-box {
     display: flex;
     flex-direction: row;
     width: 50%;
@@ -304,7 +304,7 @@
   }
 
   .btn:hover {
-    background: #36b37f; 
+    background: #36b37f;
     box-shadow: 8px 16px #36b37f3d;
   }
 
@@ -319,7 +319,7 @@
 
   .btn-div {
     display: flex;
-    height:  15%;
+    height: 15%;
     width: 30%;
     text-align: center;
   }
