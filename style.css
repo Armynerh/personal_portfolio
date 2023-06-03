@@ -72,18 +72,17 @@
   }
 
   .post-list li {
-    border: 1px solid black;
     margin: 10px;
     padding: 7px;
-    background: #EBF0EE;
+    background: #ebf0ee;
     border-radius: 4px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #3A4A42;
+    color: #3a4a42;
     border: none;
   }
 
@@ -98,10 +97,10 @@
     border: 1px solid black;
     margin: 10px;
     padding: 10px;
-    background: #ffffff;
-    color:#36b37e;
+    background: #fff;
+    color: #36b37e;
     border-radius: 4px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -208,14 +207,14 @@
 
   .frame-img {
     display: flex;
-    width:50%;
-    height:5%;
+    width: 50%;
+    height: 5%;
   }
 
   .frame-card {
     width: 50%;
     height: 30%;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-size: 34px;
     line-height: 32px;
@@ -231,16 +230,16 @@
 
   img {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-}
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
 
   .about-container {
     display: flex;
-}
+  }
 
-  #works-div{
+  #works-div {
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -277,14 +276,13 @@
     display: flex;
     width: 80%;
     height: 45%;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
     line-height: 32px;
     text-align: center;
-    color: #42526E;
-    gap:0px;
+    color: #42526e;
   }
 
   .btn {
@@ -301,14 +299,14 @@
     font-weight: 500;
     font-size: 18px;
     letter-spacing: 0.03em;
-    color: #ffffff;
+    color: #fff;
     background: #36b37f; 
     border: none;
   }
 
   .btn:hover {
     background: #36b37f;
-    box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+    box-shadow: 0px 8px 16px #36b37f3d;
   }
 
   .btn:enabled {
@@ -322,8 +320,8 @@
 
   .btn-div {
     display: flex;
-    height:15%;
-    width:30%;
+    height:  15%;
+    width: 30%;
     text-align: center;
   }
 }
