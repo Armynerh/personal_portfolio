@@ -59,6 +59,13 @@ OPTIONAL SECTIONS:
 
 
 
+<!-- LIVE DEMO -->
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
 To get a local copy up and running, follow these steps.
 
 
@@ -69,9 +76,10 @@ Clone this repository to your desired folder:
 
 
 
-
+```sh
   cd my-folder
-  git clone git@github.com:
+  git clone git@github.com:myaccount/my-project.git
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
