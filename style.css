@@ -4,6 +4,13 @@
     display: none;
   }
 
+  h4 {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    font-weight: 600;
+  }
+
   .nav-bar {
     display: flex;
     justify-content: end;
@@ -23,7 +30,7 @@
     justify-content: center;
     background-image: url("images/header-illsutration-mobile.svg");
     background-repeat: no-repeat;
-    background-size:cover; 
+    background-size: cover;
   }
 
   #main-item1 {
@@ -64,11 +71,10 @@
 
   .post-list ul {
     list-style-type: none;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-    width:100%;
-    border:1px solid black;
-    padding-inline-start: 0px;
+    width: 100%;
+    padding: 0px;
     justify-content: center;
   }
 
@@ -89,13 +95,12 @@
 
   .frame-list ul {
     list-style-type: none;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-    width:100%;
+    width: 100%;
     margin-bottom: 40px;
-    padding-inline-start: 0px;
+    padding: 0px;
     justify-content: center;
-   
   }
 
   .frame-list li {
@@ -183,7 +188,6 @@
     align-items: center;
     justify-content: center;
     width: 99%;
-   
   }
 
   #about-title {
@@ -210,8 +214,6 @@
     margin: 20px;
   }
 
-  
-
   .frame-card {
     width: 70%;
     height: 10%;
@@ -231,12 +233,6 @@
   .frame-card h4{
     margin: 0px;
     padding-bottom: 1em;
-  }
-  h4 {
-    display: flex;
-    align-self: center;
-    text-align: center;
-    font-weight: 600;
   }
 
   img {
@@ -283,7 +279,8 @@
 
   #about-box p{
     margin: 30px;
-  }  
+  }
+ 
   #about-text {
     font-family: 'Inter', sans-serif;
     font-style: normal;
