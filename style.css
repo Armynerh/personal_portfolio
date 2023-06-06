@@ -199,7 +199,7 @@
     text-align: center;
     background-image: url("images/illustration-aboutme-mobile.svg");
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: contain;
   }
 
   .about-items {
@@ -230,9 +230,10 @@
     color: #3a4a42;
   }
 
-  .frame-card h4 {
-    margin: 0;
-    padding-bottom: 1em;
+  .frame-card ul {
+    margin: 0 auto;
+    padding:0 0 1em;
+    list-style-type: none;
   }
 
   img {
@@ -269,6 +270,7 @@
   }
 
   #about-box {
+    display: flex;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -277,8 +279,14 @@
     line-height: 52px;
   }
 
-  #about-box p {
-    margin: 30px;
+  #about-box img{
+    padding-left: 40px;
+  }
+  #about-box h4 {
+    margin: 0 20px;
+    padding-top: 60px;
+    padding-left: 25px
+
   }
 
   #about-text {
@@ -292,8 +300,8 @@
   }
 
   #about-text p {
-    margin: 0;
-    padding-bottom: 1em;
+    margin: 0 15px;
+    padding-bottom: 2em;
   }
 
   .btn {
