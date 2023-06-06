@@ -1,30 +1,10 @@
 <a name="readme-top"></a>
 
-<!--
-
-
-SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-
--->
 
 <div align="center">
   
-  <h3><b>Personal Portfolio</b></h3>
+
+  <h3><b> Portfolio Project </b></h3>
 
 </div>
 
@@ -35,8 +15,15 @@ OPTIONAL SECTIONS:
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -47,39 +34,64 @@ OPTIONAL SECTIONS:
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [personal_portfolio] <a name="about-project"></a>
+# 📖 [your_project_name] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[personal_portfolio]** is a...
+**[project_portfolio]** is a personal portfolio project with templae chosen from figma
 
 ## 🛠 HTML & CSS <a name="built-with"></a>
 
 ### Frontend <a name="tech-stack"></a>
 
+<!-- Features -->
 
+### Key Features <a name="key-features"></a>
 
-<!-- LIVE DEMO -->
-
+- **[Mobile First]**
+- **[Destop Version]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://google.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
-
 
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-
+<!--
+Example commands:
 
 ```sh
   cd my-folder
   git clone git@github.com:myaccount/my-project.git
 ```
+--->
+
+### Deployment
+
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,8 +99,7 @@ Clone this repository to your desired folder:
 
 ## 👥 Authors <a name="authors"></a>
 
-
-👤 **Kehinde Henshaw**
+👤 **Kehinde .A. Henshaw**
 
 - GitHub: [@githubhandle](https://github.com/Armynerh)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/kehinde-aminah-h/)
@@ -99,10 +110,8 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-- [Works Section ] **[new_feature_1]**
-- [About Section] **[new_feature_2]**
-- [ Socials Section] **[new_feature_3]**
+- [Desktop Version ] **[new_feature_1]**
+- [Deployment ] **[new_feature_2]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,7 +129,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project follow me!
+If you like this project follow me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,11 +137,11 @@ If you like this project follow me!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank all Micronauts
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 <!-- LICENSE -->
@@ -140,6 +149,7 @@ I would like to thank all Micronauts
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
