@@ -306,14 +306,17 @@
     padding: 15px;
   }
 
+  .form-container1{
+    background-image: url(images/Frame.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom 55px;
+  }
+
   .form-container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background-image: url(images/Frame.svg);
-    background-repeat: no-repeat;
-    background-position: right bottom 30px;
   }
 
   .form-header {
@@ -397,7 +400,7 @@
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 32px;
     text-align: center;
     color: #42526e;
