@@ -315,7 +315,7 @@
     justify-content: center;
     background-image: url(images/Frame.svg);
     background-repeat: no-repeat;
-    background-position: right bottom 30px;  
+    background-position: right bottom 30px;
   }
 
   .form-header {
@@ -452,7 +452,7 @@
     margin: 0 auto;
     gap: 5px;
     width: 30%;
-    text-align: center; 
+    text-align: center;
   }
 
   .nav-toggle {
@@ -463,27 +463,24 @@
     text-decoration: none;
     width: 63px;
     height: 20px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
-    color:#344563;
+    color: #344563;
   }
 
-  .nav-item{
+  .nav-item {
     display: flex;
-    margin: 0 auto;  
+    margin: 0 auto;
     text-align: center;
   }
 
-  div{
+  div {
     border: 1px solid black;
   }
 
- div{
-    border: 1px solid black;
- }
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -503,7 +500,6 @@
   }
 
   .grid-card {
-   
     display: flex;
     flex-direction: column;
     align-items: center;
