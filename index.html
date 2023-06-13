@@ -250,10 +250,10 @@
                 <div class="form-body">
                     <form action="https://formspree.io/f/xoqzoonb"
                     method="POST">
-                        <input type="text" name="fullname" id="fullname" class="text-field" placeholder="Full name">
-                        <input type="email" name="email" id="email" class="text-field" placeholder="Email address">
-                        <textarea name="textbox" id="textbox">Hey I’d like to connect to...</textarea>
-                        <button>Get in touch</button>
+                        <input type="text" name="fullname" id="fullname" class="text-field" placeholder="Full name" minlength="3" maxlength="30" required>
+                        <input type="email" name="email" id="email" class="text-field" placeholder="Email address" required>
+                        <textarea name="textbox" id="textbox" placeholder="Hey I’d like to connect to..." maxlength="500" required></textarea>
+                        <div><button class="btn">Get in touch</button></div>
                     </form>
                     <div id="support-txt">
                         <a href="mailto:kennyhenshaw001@icloud.com">kennyhenshaw001@icloud.com</a>
