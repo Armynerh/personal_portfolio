@@ -19,17 +19,12 @@
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -103,6 +98,13 @@ Example:
 
 - GitHub: [@githubhandle](https://github.com/Armynerh)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/kehinde-aminah-h/)
+
+
+👤 **Jdir Mehdi**
+
+- GitHub: [@githubhandle](https://github.com/medijdir)
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
