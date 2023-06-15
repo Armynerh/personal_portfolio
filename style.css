@@ -485,7 +485,7 @@
     grid-template-rows: 1fr 1fr;
     grid-gap: 3px;
     height: fit-content;
-    margin: 0px 100px;
+    margin: 0 100px;
   }
 
   .grid-items {
