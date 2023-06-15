@@ -332,7 +332,7 @@
     color: #172b4d;
   }
 
-  #action img{
+  #action img {
     margin: 0 auto;
   }
 
@@ -685,11 +685,11 @@
     padding: 20px;
   }
 
-  #main-item1{
+  #main-item1 {
     margin-top: 90px;
   }
 
-  #action img{
+  #action img {
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 250px;
@@ -756,7 +756,6 @@
     height: fit-content;
     position: sticky;
   }
-  
 
   .btn {
     width: 150px;
