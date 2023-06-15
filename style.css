@@ -483,8 +483,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 15px;
+    grid-gap: 3px;
     height: fit-content;
+    margin: 0px 100px;
   }
 
   .grid-items {
@@ -495,6 +496,7 @@
     justify-self: center;
     margin-top: 15px;
     background: #ebf0ee;
+    max-width: 369px;
   }
 
   .grid-card {
@@ -507,6 +509,7 @@
   }
 
   .post-card {
+    width: fit-content;
     height: 35%;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -518,6 +521,7 @@
     align-items: center;
     text-align: center;
     color: #172b4d;
+    padding-left: 0;
   }
 
   .main-container {
@@ -525,6 +529,7 @@
     flex-wrap: wrap;
     justify-content: center;
     background-image: none;
+    text-align: center;
   }
 
   .main-container1 {
@@ -534,6 +539,7 @@
   }
 
   #main-item1 h2 {
+    margin: 0 auto;
     font-weight: 800;
     font-size: 48px;
     font-family: 'Inter', sans-serif;
@@ -569,6 +575,7 @@
   .items-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 100px;
   }
 
   .post-list ul {
@@ -610,6 +617,15 @@
     letter-spacing: 0.03em;
   }
 
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
   .frame-card {
     width: 80%;
     height: 10%;
@@ -638,16 +654,18 @@
   }
 
   .form-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 0 130px;
+    padding-bottom: 120px;
   }
 
   .form-body {
-    width: 55%;
     display: block;
   }
 
   .form-header {
-    width: 30%;
     margin: 0;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -656,6 +674,7 @@
     line-height: 52px;
     text-align: center;
     color: #172b4d;
+    padding: 20px;
   }
 
   .form-header h4 {
@@ -663,7 +682,6 @@
     text-align: center;
     margin-block-start: 0;
     margin-block-end: 0;
-    width: 100%;
   }
 
   section {
@@ -706,9 +724,37 @@
   }
 
   .form-container1 {
-    background-image: url(images/contact2.svg), url(images/contact1.svg);
+    background-image: url(images/contact2.svg), url(images/contact1.svg), url(images/illustration-1-contact-form-desktop.svg);
     background-repeat: no-repeat no-repeat;
-    background-position: right bottom 90px, left bottom 120px;
+    background-position: right bottom 2px, left 150px bottom 40px, left bottom;
     background-size: 10%;
+  }
+
+  .footer-div {
+    border-top: 3px solid #dfe1e6;
+    width: 100%;
+  }
+
+  .btn {
+    width: 150px;
+    height: 45px;
+    border-radius: 7px;
+    padding: 13px 22px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.03em;
+    color: #fff;
+    border: none;
+  }
+
+  .form-button {
+    border-radius: 7px;
+    padding: 12px 32px;
+    text-align: center;
+    margin-top: 20px;
+    width: fit-content;
   }
 }
