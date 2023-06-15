@@ -188,6 +188,7 @@
     height: 45%;
     font-family: 'Inter', sans-serif;
     font-style: normal;
+    font-weight: 600;
     font-size: 34px;
     line-height: 32px;
     margin-bottom: 10px;
@@ -478,10 +479,6 @@
     text-align: center;
   }
 
-  div {
-    border: 1px solid black;
-  }
-
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -513,19 +510,202 @@
     height: 35%;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-size: 34px;
+    font-weight: 600;
+    font-size: 24px;
     line-height: 32px;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
     text-align: center;
-    color: #3a4a42;
+    color: #172b4d;
   }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: none;
+  }
+
+  .main-container1{
+    background-image: url(images/Header-llustration-desktop.svg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #main-item1 h2 {
+    font-weight: 800;
+    font-size: 48px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    padding-right: 20px;
+    padding-top: 40px;
+
+  }
+
 
   #main-span1 {
     display: inline;
     padding-right: 0;
     margin: 0;
-    border: 1px solid black;
+  }
+
+  .main-item2{
+    width: 40%;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding: 70px;
+  }
+
+  .main-item3{
+    width: 40%;
+    height: 70px;
+    margin-bottom: 20px;
+    padding-bottom: 80px;
+  }
+  #main-p{
+    margin: 0px 150px;
+  
+  }
+  .items-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .post-list ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0%;
+    justify-content: center;
+    color: #172b4d;
+  }
+
+  .post-list li {
+    padding: 7px;
+    margin: 4px;
+    background: #ebf0ee;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #172b4d;
+    border: none;
+  }
+
+
+  .frame-list li {
+    padding: 4px;
+    margin: 2px;
+    background: #fff;
+    color: #36b37e;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+  }
+
+  .frame-card {
+    width: 80%;
+    height: 10%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #172b4d;
+  }
+
+  #socials {
+    margin-top: 70px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #shape, #support-txt {
+    display: none;
+    height: 1px;
+    margin-top: 30px;
+  }
+
+  .form-container {
+    display: flex;
+
+  }
+
+
+  .form-body {
+    width: 55%;
+    display: block;
+    
+  }
+  .form-header {
+    width:30%;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #172b4d;
+  }
+  .form-header h4{
+    display: block;
+    text-align:center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width:100%;
+  }
+
+  section{
+    margin-top: 50px;
+  }
+
+  #works-div img {
+    display: none;
+  }
+  input, textarea {
+    width: 100%;
+  }
+  .btn2{
+  align-self: flex-start;
+  }
+  #about-title {
+    background-image: url(images/illustration-aboutme-desktop.svg), url(images/illustration-aboutme-mobile.svg);
+    background-position: right top, left bottom;
+    background-repeat: no-repeat no-repeat;
+    background-size: 80%;
+  }
+
+  #about-text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #42526e;
+    padding: 15px 20px;
+  }
+  #about-text p{
+    padding: 0 200px;
+  }
+
+  .form-container1 {
+    background-image: url(images/contact2.svg), url(images/contact1.svg);
+    background-repeat: no-repeat no-repeat;
+    background-position: right bottom 90px, left bottom 120px;
+    background-size: 10%;
   }
 }
