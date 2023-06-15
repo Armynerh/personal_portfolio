@@ -332,6 +332,10 @@
     color: #172b4d;
   }
 
+  #action img{
+    margin: 0 auto;
+  }
+
   .form-body {
     width: 99%;
     height: 330px;
@@ -675,6 +679,15 @@
     text-align: center;
     color: #172b4d;
     padding: 20px;
+  }
+
+  #main-item1{
+    margin-top: 90px;
+  }
+
+  #action img{
+    margin: 0 auto;
+    padding-bottom: 250px;
   }
 
   .form-header h4 {
