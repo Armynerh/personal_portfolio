@@ -456,9 +456,11 @@
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    gap: 5px;
+    gap: 1px;
     width: 30%;
     text-align: center;
+    position: fixed;
+    left: 35%;
   }
 
   .nav-toggle {
@@ -475,12 +477,15 @@
     font-size: 15px;
     line-height: 20px;
     color: #344563;
+    margin-top: 40px;
+    margin-right: 40px;
   }
 
   .nav-item {
     display: flex;
     margin: 0 auto;
     text-align: center;
+    padding: 1px;
   }
 
   .grid-container {
@@ -567,9 +572,8 @@
 
   .main-item3 {
     width: 40%;
-    height: 70px;
-    margin-bottom: 20px;
-    padding-bottom: 80px;
+    height: 4px;
+    padding-bottom: 50px;
   }
 
   #main-p {
@@ -687,6 +691,7 @@
 
   #action img{
     margin: 0 auto;
+    padding-top: 50px;
     padding-bottom: 250px;
   }
 
@@ -746,7 +751,12 @@
   .footer-div {
     border-top: 3px solid #dfe1e6;
     width: 100%;
+    margin: 0;
+    padding-bottom: 3px;
+    height: fit-content;
+    position: sticky;
   }
+  
 
   .btn {
     width: 150px;
