@@ -527,8 +527,8 @@
     background-image: none;
   }
 
-  .main-container1{
-    background-image: url(images/Header-llustration-desktop.svg); 
+  .main-container1 {
+    background-image: url(images/Header-llustration-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -540,9 +540,7 @@
     font-style: normal;
     padding-right: 20px;
     padding-top: 40px;
-
   }
-
 
   #main-span1 {
     display: inline;
@@ -550,7 +548,7 @@
     margin: 0;
   }
 
-  .main-item2{
+  .main-item2 {
     width: 40%;
     margin-top: 0;
     margin-bottom: 40px;
@@ -563,11 +561,12 @@
     margin-bottom: 20px;
     padding-bottom: 80px;
   }
-  #main-p{
+
+  #main-p {
     margin: 0px 150px;
-  
   }
-  .items-container{
+
+  .items-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -597,7 +596,6 @@
     border: none;
   }
 
-
   .frame-list li {
     padding: 4px;
     margin: 2px;
@@ -626,13 +624,14 @@
 
   #socials {
     margin-top: 70px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     margin-right: 20px;
     display: flex;
     justify-content: center;
   }
 
-  #shape, #support-txt {
+  #shape, 
+  #support-txt {
     display: none;
     height: 1px;
     margin-top: 30px;
@@ -640,15 +639,13 @@
 
   .form-container {
     display: flex;
-
   }
-
 
   .form-body {
     width: 55%;
-    display: block;
-    
+    display: block;  
   }
+
   .form-header {
     width:30%;
     margin: 0;
@@ -660,27 +657,30 @@
     text-align: center;
     color: #172b4d;
   }
-  .form-header h4{
+
+  .form-header h4 {
     display: block;
     text-align:center;
     margin-block-start: 0;
     margin-block-end: 0;
-    width:100%;
+    width: 100%;
   }
 
-  section{
+  section {
     margin-top: 50px;
   }
 
   #works-div img {
     display: none;
   }
+
   input, textarea {
     width: 100%;
   }
-  .btn2{
+  .btn2 {
   align-self: flex-start;
   }
+
   #about-title {
     background-image: url(images/illustration-aboutme-desktop.svg), url(images/illustration-aboutme-mobile.svg);
     background-position: right top, left bottom;
@@ -698,7 +698,8 @@
     color: #42526e;
     padding: 15px 20px;
   }
-  #about-text p{
+
+  #about-text p {
     padding: 0 200px;
   }
 
