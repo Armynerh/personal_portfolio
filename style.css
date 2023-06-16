@@ -1,4 +1,7 @@
 @media (min-width: 375px) {
+  body{
+    margin-top: 0;
+  }
   .nav-item {
     display: none;
   }
@@ -459,8 +462,6 @@
     gap: 1px;
     width: 30%;
     text-align: center;
-    position: fixed;
-    left: 35%;
   }
 
   .nav-toggle {
@@ -541,7 +542,7 @@
     text-align: center;
   }
 
-  .main-container1 {
+  header {
     background-image: url(images/Header-llustration-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
