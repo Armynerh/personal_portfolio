@@ -103,7 +103,7 @@
   .animation {
     transition: all 2s ease-in-out;
   }
- 
+
   .animation:hover {
     font-size: 72px;
     background-color: yellow;
