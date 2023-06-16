@@ -42,7 +42,7 @@
     color: #172b4d;
   }
 
-  .animate{
+  .animate {
     opacity: 0.6;
     transition: 0.3s;
   }
@@ -99,16 +99,15 @@
     padding: 0%;
     justify-content: center;
   }
+
   .animation {
-    transition-property: font-size;
     transition: all 2s ease-in-out;
   }
-  
+ 
   .animation:hover {
     font-size: 72px;
     background-color: yellow;
     transform: scale(1.5);
-  
   }
 
   .post-list li {
