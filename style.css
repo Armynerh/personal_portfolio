@@ -1,7 +1,8 @@
 @media (min-width: 375px) {
-  body{
+  body {
     margin-top: 0;
   }
+
   .nav-item {
     display: none;
   }
