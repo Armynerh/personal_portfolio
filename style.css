@@ -42,6 +42,16 @@
     color: #172b4d;
   }
 
+  .animate {
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+
+  .animate:hover {
+    color: #172b4d;
+    opacity: 1;
+  }
+
   h2 {
     display: block;
     font-size: 1;
@@ -88,6 +98,16 @@
     width: 100%;
     padding: 0%;
     justify-content: center;
+  }
+
+  .animation {
+    transition: all 2s ease-in-out;
+  }
+
+  .animation:hover {
+    font-size: 72px;
+    background-color: yellow;
+    transform: scale(1.5);
   }
 
   .post-list li {
