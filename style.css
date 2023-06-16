@@ -1,4 +1,8 @@
 @media (min-width: 375px) {
+  body {
+    margin-top: 0;
+  }
+
   .nav-item {
     display: none;
   }
@@ -188,6 +192,7 @@
     height: 45%;
     font-family: 'Inter', sans-serif;
     font-style: normal;
+    font-weight: 600;
     font-size: 34px;
     line-height: 32px;
     margin-bottom: 10px;
@@ -331,6 +336,10 @@
     color: #172b4d;
   }
 
+  #action img {
+    margin: 0 auto;
+  }
+
   .form-body {
     width: 99%;
     height: 330px;
@@ -451,7 +460,7 @@
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    gap: 5px;
+    gap: 1px;
     width: 30%;
     text-align: center;
   }
@@ -470,24 +479,24 @@
     font-size: 15px;
     line-height: 20px;
     color: #344563;
+    margin-top: 40px;
+    margin-right: 40px;
   }
 
   .nav-item {
     display: flex;
     margin: 0 auto;
     text-align: center;
-  }
-
-  div {
-    border: 1px solid black;
+    padding: 1px;
   }
 
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 15px;
+    grid-gap: 3px;
     height: fit-content;
+    margin: 0 100px;
   }
 
   .grid-items {
@@ -498,6 +507,7 @@
     justify-self: center;
     margin-top: 15px;
     background: #ebf0ee;
+    max-width: 369px;
   }
 
   .grid-card {
@@ -510,22 +520,265 @@
   }
 
   .post-card {
+    width: fit-content;
     height: 35%;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-size: 34px;
+    font-weight: 600;
+    font-size: 24px;
     line-height: 32px;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
     text-align: center;
-    color: #3a4a42;
+    color: #172b4d;
+    padding-left: 0;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: none;
+    text-align: center;
+  }
+
+  header {
+    background-image: url(images/Header-llustration-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #main-item1 h2 {
+    margin: 0 auto;
+    font-weight: 800;
+    font-size: 48px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    padding-right: 20px;
+    padding-top: 40px;
   }
 
   #main-span1 {
     display: inline;
     padding-right: 0;
     margin: 0;
-    border: 1px solid black;
+  }
+
+  .main-item2 {
+    width: 40%;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding: 70px;
+  }
+
+  .main-item3 {
+    width: 40%;
+    height: 4px;
+    padding-bottom: 50px;
+  }
+
+  #main-p {
+    margin: 0 150px;
+  }
+
+  .items-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 100px;
+  }
+
+  .post-list ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0%;
+    justify-content: center;
+    color: #172b4d;
+  }
+
+  .post-list li {
+    padding: 7px;
+    margin: 4px;
+    background: #ebf0ee;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #172b4d;
+    border: none;
+  }
+
+  .frame-list li {
+    padding: 4px;
+    margin: 2px;
+    background: #fff;
+    color: #36b37e;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .frame-card {
+    width: 80%;
+    height: 10%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #172b4d;
+  }
+
+  #socials {
+    margin-top: 70px;
+    margin-bottom: 0;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #shape,
+  #support-txt {
+    display: none;
+    height: 1px;
+    margin-top: 30px;
+  }
+
+  .form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 0 130px;
+    padding-bottom: 120px;
+  }
+
+  .form-body {
+    display: block;
+  }
+
+  .form-header {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #172b4d;
+    padding: 20px;
+  }
+
+  #main-item1 {
+    margin-top: 90px;
+  }
+
+  #action img {
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 250px;
+  }
+
+  .form-header h4 {
+    display: block;
+    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  section {
+    margin-top: 50px;
+  }
+
+  #works-div img {
+    display: none;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+  }
+
+  .btn2 {
+    align-self: flex-start;
+  }
+
+  #about-title {
+    background-image: url(images/illustration-aboutme-desktop.svg), url(images/illustration-aboutme-mobile.svg);
+    background-position: right top, left bottom;
+    background-repeat: no-repeat no-repeat;
+    background-size: 80%;
+  }
+
+  #about-text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #42526e;
+    padding: 15px 20px;
+  }
+
+  #about-text p {
+    padding: 0 200px;
+  }
+
+  .form-container1 {
+    background-image: url(images/contact2.svg), url(images/contact1.svg), url(images/illustration-1-contact-form-desktop.svg);
+    background-repeat: no-repeat no-repeat;
+    background-position: right bottom 2px, left 150px bottom 40px, left bottom;
+    background-size: 10%;
+  }
+
+  .footer-div {
+    border-top: 3px solid #dfe1e6;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 3px;
+    height: fit-content;
+    position: sticky;
+  }
+
+  .btn {
+    width: 150px;
+    height: 45px;
+    border-radius: 7px;
+    padding: 13px 22px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.03em;
+    color: #fff;
+    border: none;
+  }
+
+  .form-button {
+    border-radius: 7px;
+    padding: 12px 32px;
+    text-align: center;
+    margin-top: 20px;
+    width: fit-content;
   }
 }

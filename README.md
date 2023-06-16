@@ -16,7 +16,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Deployment](#deployment)
@@ -29,9 +28,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [personal_portfolio] <a name="about-project"></a>
 
-**[project_portfolio]** is a personal portfolio project with templae chosen from figma
+**[personal_portfolio]** is a personal portfolio project with templae chosen from figma
 
 ## 🛠 HTML & CSS <a name="built-with"></a>
 
@@ -43,16 +42,6 @@
 
 - **[Mobile First]**
 - **[Destop Version]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,7 +89,7 @@ Example:
 - LinkedIn: [LinkedIn](https://linkedin.com/in/kehinde-aminah-h/)
 
 
-👤 **Jdir Mehdi**
+👤 **Jdir Mehdi- Contributor**
 
 - GitHub: [@githubhandle](https://github.com/medijdir)
 
