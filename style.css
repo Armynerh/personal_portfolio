@@ -42,6 +42,16 @@
     color: #172b4d;
   }
 
+  .animate{
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+
+  .animate:hover {
+    color: #172b4d;
+    opacity: 1;
+  }
+
   h2 {
     display: block;
     font-size: 1;
