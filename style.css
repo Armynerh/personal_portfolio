@@ -566,9 +566,8 @@
   header {
     background-image: url(images/Header-llustration-desktop2.png);
     background-repeat: no-repeat;
-    width:100%;
+    width: 100%;
     background-position: center top;
-
   }
 
   #main-item1 h2 {
@@ -581,7 +580,7 @@
   #main-span1 {
     display: inline;
     padding-right: 0;
-    margin-bottom:70px ;
+    margin-bottom: 70px;
   }
 
   .main-item2 {
