@@ -105,8 +105,7 @@
   }
 
   .animation:hover {
-    font-size: 72px;
-    background-color: yellow;
+    font-size: 43px;
     transform: scale(1.5);
   }
 
@@ -483,6 +482,7 @@
     gap: 1px;
     width: 30%;
     text-align: center;
+    justify-content: center;
   }
 
   .nav-toggle {
@@ -499,7 +499,7 @@
     font-size: 15px;
     line-height: 20px;
     color: #344563;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-right: 40px;
   }
 
@@ -564,25 +564,23 @@
   }
 
   header {
-    background-image: url(images/Header-llustration-desktop.svg);
+    background-image: url(images/Header-llustration-desktop2.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    width: 100%;
+    background-position: center top;
   }
 
   #main-item1 h2 {
-    margin: 0 auto;
     font-weight: 800;
     font-size: 48px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    padding-right: 20px;
-    padding-top: 40px;
   }
 
   #main-span1 {
     display: inline;
     padding-right: 0;
-    margin: 0;
+    margin-bottom: 70px;
   }
 
   .main-item2 {
@@ -708,12 +706,12 @@
   }
 
   #main-item1 {
-    margin-top: 90px;
+    margin-top: 60px;
   }
 
   #action img {
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 90px;
     padding-bottom: 250px;
   }
 

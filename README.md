@@ -1,10 +1,8 @@
 <a name="readme-top"></a>
 
-
 <div align="center">
-  
 
-  <h3><b> Portfolio Project </b></h3>
+  <h3><b>Personal Portfolio</b></h3>
 
 </div>
 
@@ -16,9 +14,9 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -30,18 +28,42 @@
 
 # 📖 [personal_portfolio] <a name="about-project"></a>
 
-**[personal_portfolio]** is a personal portfolio project with templae chosen from figma
+> Describe your project in 1 or 2 sentences.
 
-## 🛠 HTML & CSS <a name="built-with"></a>
+**[Personal Portfolio]** is a...portfolio that contains all my personal works
 
-### Frontend <a name="tech-stack"></a>
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li> HTML & CSS</li>
+  </ul>
+</details>
+
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[Mobile First]**
-- **[Destop Version]**
+
+
+- **[Responsive design]**
+- **[Media query]**
+- **[mobile first]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+- [Live Demo Link](https://armynerh.github.io/personal_portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -49,8 +71,9 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+> Describe how a new developer could make use of your project.
 
+To get a local copy up and running, follow these steps.
 
 ### Setup
 
@@ -64,18 +87,6 @@ Example commands:
   git clone git@github.com:myaccount/my-project.git
 ```
 --->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,15 +105,17 @@ Example:
 - GitHub: [@githubhandle](https://github.com/medijdir)
 
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [Desktop Version ] **[new_feature_1]**
-- [Deployment ] **[new_feature_2]**
+
+
+- [ ] **[Accessibilty]**
+- [ ] **[Database]**
+- [ ] **[Server]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,7 +125,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Armynerh/personal_portfolio/issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,19 +141,15 @@ If you like this project follow me.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-I would like to thank all Micronauts
+I would like to thank Micronauts
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-
+This project is [MIT](https://github.com/Armynerh/personal_portfolio/blob/deploy_feature/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
