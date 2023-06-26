@@ -9,6 +9,6 @@ hamburgerMenu.classList.toggle('active');
 toggleIcon.addEventListener('click', () => {
 hamburgerMenu.classList.remove('active');
 });
-document.querySelectorAll('.nav-item').forEach(n () => n.addEventListener("click", () => {
+document.querySelectorAll('.nav-item').forEach(n  => n.addEventListener("click", () => {
 hamburgerMenu.classList.remove('active');
 }));
