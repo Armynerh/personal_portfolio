@@ -13,17 +13,39 @@
        <div class="nav-container first-img">
 
         <nav class="nav-bar">
-            <div class="nav-toggle"><img src="images/Enabled.png" alt="Hamburger-menu"></div>
-            <div class="nav-item" id="box1"><a href="#">Portfolio</a></div>
-            <div class="nav-item" id="box2"><a href="#">About</a></div>
-            <div class="nav-item" id="box3" ><a href="#"> Contact</a></div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-box">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-box">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#form-div1" class="nav-box">Contact</a>
+                </li>
+            </ul>
+
+           
+            <ul class="hamburger-menu">
+                <li class="toggle-icon">
+                    <img src="images/Icon.png"></li>
+                <li class="nav-item">
+                    <a href="#about-container" class="nav-box">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about-box" class="nav-box">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#form-div1" class="nav-box">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <img src="images/Union.svg">
+            </div>
         </nav>
     </div>
- 
-   
         <section>
             <div class="main-container">
-
                 <div id="main-item1">
                     <h2>Hey there. <span id="main-span1" class="animation">I'm Kenny.</span> <span id="main-span2">I'm a software developer</span></h2>
                 </div>
@@ -35,7 +57,6 @@
                     </p>
                 </div>
                 </div>
-                
                 <div class="main-item3">
                     <ul><li><a href="https://twitter.com/i/flow/login" ><img src="images/twitter.svg" alt="twitter"></a></li>
                         <li><a href="https://www.linkedin.com/in/kehinde-aminah-h/" ><img src="images/Linkedin icon.svg" alt="linkedin"></a></li>
@@ -59,7 +80,6 @@
             </div>
         </div>
             <div class="about-header">
-
             </div>
             <div class="grid-container">
                 <div class="grid-items">
@@ -169,17 +189,11 @@
                             <button class="btn">See Project</button>
                         </div>
                     </div>
-                </div>
-                
-                
-                
-                
-                
+                </div>     
             </div>
         </section>
         <section>
             <div class="flex-container">
-               
                 <div id="about-title">
                     <div id="about-box" class="font-normal">
                      <h4>About me</h4> 
@@ -251,30 +265,27 @@
             </div>
             </div>
         </section>
-       
         <section class="form-container1">
-            <div class="form-container">
+            <div class="form-container" id="form-div1">
                 <div class="form-header">
                     <h4>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h4>
                 </div>
                 <div class="form-body">
                     <form action="https://formspree.io/f/xoqzoonb"
                     method="POST">
-                        <label type="hidden" for="fullname">fullname</label>
+                        <label type="hidden" for="fullname"></label>
                         <input type="text" name="fullname" id="fullname" class="text-field" placeholder="Full name" maxlength="30" required>
-                        <label type="hidden" for="email">email</label>
+                        <label type="hidden" for="email"></label>
                         <input type="email" name="email" id="email" class="text-field" placeholder="Email address" required>
-                        <label type="hidden" for="textbox">textbox</label>
+                        <label type="hidden" for="textbox"></label>
                         <textarea name="textbox" id="textbox" placeholder="Hey I’d like to connect to..." maxlength="500" required></textarea>
                         <div class="btn2"><button class="btn form-button">Get in touch</button></div>
                     </form>
                     <div id="support-txt">
                         <a href="mailto:kennyhenshaw001@icloud.com">kennyhenshaw001@icloud.com</a>
-                    </div>
-                    
+                    </div>  
                 </div>
-            </div>
-            
+            </div> 
         </section>
         <footer>
             <div id="socials" class="footer-div">
@@ -292,5 +303,6 @@
                 </div>
         </footer>
     </main>
+    <script src="./index.js"></script>
 </body>
 </html>
