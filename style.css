@@ -98,6 +98,59 @@
     opacity: 1;
   }
 
+  .modal-pop {
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #fff;
+    margin: 0;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    overflow: auto;
+  }
+
+  .modal-pop.active {
+    display: flex;
+  }
+
+  .modal-pop h3 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    width: 259px;
+    height: 135px;
+    margin: 0 auto;
+  }
+
+  .modal-pop p {
+    width: 311px;
+    height: 313px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    margin: 0 auto;
+  }
+
+  .mobile-cancel {
+    display: flex;
+    align-self: flex-end;
+    position: absolute;
+    top: 10px;
+    margin: 20px;
+  }
+
   h2 {
     display: block;
     font-size: 40px;
@@ -170,6 +223,16 @@
     border: none;
   }
 
+  .modal-list ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0%;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
   .frame-list ul {
     list-style-type: none;
     display: flex;
@@ -220,6 +283,21 @@
 
   .main-item3 li {
     padding: 1px 10px;
+  }
+
+  .modal-list li {
+    padding: 7px;
+    margin: 4px;
+    background: #ebf0ee;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #3a4a42;
+    border: none;
   }
 
   .grid-container {
@@ -339,6 +417,11 @@
     text-align: center;
     color: #172b4d;
     position: relative;
+  }
+
+  .modal-img img {
+    width: 100%;
+    height: 10%;
   }
 
   #works-div img {
@@ -462,6 +545,31 @@
     border: none;
     background: #36b37f;
     margin-top: 20px;
+  }
+
+  .modal-btn {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .modal-btn button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 16px;
+    gap: 12px;
+    width: 135px;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    border: none;
+    background: #36b37f;
+    margin: 15px;
   }
 
   #support-txt {
