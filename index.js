@@ -111,6 +111,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const techlist = project.technologies.map((technology) => `<li>${technology}</li>`).join('');
 
-    
+    newDiv.innerHTML = `<div class='modal-container'>
+          <div class="modal-img">
+          <img src=${project.image1} id="img1">
+          <img src=${project.image2} id="img2">
+          </div>
+          <div class="modal-text">
+          <h3>${project.name2}</h3> <div class="modal-btn modal-btn1">
+          <a class="btn" href=${project.liveLink}>See Live</a> <a href=${project.sourceLink} class="btn">See Source</a>
+          </div>
+          </div>
+          <div class=modal-list>
+          <ul>${techlist}</ul>
+          </div>
+          <p>${project.description}</p>
+          <div class="modal-btn modal-btn2">
+          <a id="icon-button" href=${project.liveLink} class="btn">See Live</a> <a href=${project.sourceLink} class="btn">See Source</a>
+          </div>
+          </div>`;
   }));
 });
