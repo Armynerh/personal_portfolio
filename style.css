@@ -113,6 +113,7 @@
     margin: 0;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
     overflow: auto;
+    padding: 30px;
   }
 
   .modal-pop.active {
@@ -126,21 +127,16 @@
     font-size: 32px;
     line-height: 44px;
     color: #172b4d;
-    width: 259px;
-    height: 135px;
-    margin: 0 auto;
+    margin: 0;
   }
 
   .modal-pop p {
-    width: 311px;
-    height: 313px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #344563;
-    margin: 0 auto;
   }
 
   .mobile-cancel {
@@ -148,7 +144,7 @@
     align-self: flex-end;
     position: absolute;
     top: 10px;
-    margin: 20px;
+    margin: 35px;
   }
 
   h2 {
@@ -197,6 +193,7 @@
     width: 100%;
     padding: 0%;
     justify-content: center;
+    margin: 30px 0;
   }
 
   .animation {
@@ -227,10 +224,7 @@
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     padding: 0%;
-    justify-content: center;
-    margin: 0 auto;
   }
 
   .frame-list ul {
@@ -332,13 +326,12 @@
 
   .post-card {
     width: 70%;
-    height: 45%;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 34px;
     line-height: 32px;
-    margin-bottom: 10px;
+    margin-top: 30px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -347,6 +340,7 @@
 
   .post-card h4 {
     font-weight: 600;
+    margin: 0;
   }
 
   .flex-container {
@@ -409,6 +403,10 @@
     justify-content: center;
   }
 
+  .modal-btn img {
+    width: 10%;
+  }
+
   #works-div {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -419,9 +417,13 @@
     position: relative;
   }
 
-  .modal-img img {
+  .modal-img #img1 {
     width: 100%;
-    height: 10%;
+    height: 100%;
+  }
+
+  .modal-img #img2 {
+    display: none;
   }
 
   #works-div img {
@@ -547,20 +549,28 @@
     margin-top: 20px;
   }
 
-  .modal-btn {
+  .modal-btn2 {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
-  .modal-btn button {
+  .modal-btn1 {
+    display: none;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+
+  .modal-btn a {
+    text-decoration: none;
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;
     align-items: flex-start;
     padding: 12px 16px;
     gap: 12px;
-    width: 135px;
-    height: 48px;
+    width: 140px;
+    height: 38px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -569,8 +579,9 @@
     color: #fff;
     border: none;
     background: #36b37f;
-    margin: 15px;
+    margin: 0 15px 35px 0;
   }
+
 
   #support-txt {
     text-align: center;
@@ -703,6 +714,10 @@
     border-radius: 8px;
   }
 
+  .modal-pop p {
+    margin-bottom: 70px;
+  }
+
   .post-card {
     width: fit-content;
     height: 35%;
@@ -725,6 +740,24 @@
     justify-content: center;
     background-image: none;
     text-align: center;
+  }
+
+  .modal-pop h3 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    margin: 0;
+    width: 30%;
+  }
+
+  .modal-text {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 99%;
   }
 
   header {
@@ -770,6 +803,11 @@
     margin: 0 100px;
   }
 
+  .mobile-cancel {
+    padding: 0;
+    margin: 22px;
+  }
+
   .post-list ul {
     width: 100%;
     list-style-type: none;
@@ -778,6 +816,7 @@
     padding: 0%;
     justify-content: center;
     color: #172b4d;
+    margin: 10px;
   }
 
   .post-list li {
@@ -903,11 +942,25 @@
     align-self: flex-start;
   }
 
+
   #about-title {
     background-image: url(images/illustration-aboutme-desktop.svg), url(images/illustration-aboutme-mobile.svg);
     background-position: right top, left bottom;
     background-repeat: no-repeat no-repeat;
     background-size: 80%;
+  }
+
+  .modal-img #img1 {
+    display: none;
+    width: 100%;
+    height: 100%;
+  }
+
+  .modal-img #img2 {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    margin-top: 0;
   }
 
   #about-text {
@@ -962,5 +1015,18 @@
     text-align: center;
     margin-top: 20px;
     width: fit-content;
+  }
+
+  .modal-btn2 {
+    display: none;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+
+  .modal-btn1 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 20px;
   }
 }
