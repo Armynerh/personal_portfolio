@@ -14,7 +14,6 @@ document.querySelectorAll('.nav-item').forEach((n) => n.addEventListener('click'
 }));
 
 const popUp = document.querySelector('.modal-pop');
-const closeBtn = document.querySelector('.mobile-cancel');
 const newDiv = document.createElement('div');
 popUp.appendChild(newDiv);
 const projects = [
@@ -80,8 +79,6 @@ const projects = [
   },
 ];
 
-closeBtn.addEventListener('click', () => { popUp.classList.remove('active'); });
-
 const works = document.querySelector('.grid-container');
 const newWorks = projects.map((project) => {
   const techlist = project.technologies.map((technology) => `<li>${technology}</li>`).join('');
@@ -105,20 +102,25 @@ const newWorks = projects.map((project) => {
 
 document.addEventListener('DOMContentLoaded', () => {
   works.innerHTML = newWorks;
+
   document.querySelectorAll('.project-btn').forEach((n, idx) => n.addEventListener('click', () => {
     popUp.classList.toggle('active');
     const project = projects[idx];
 
     const techlist = project.technologies.map((technology) => `<li>${technology}</li>`).join('');
 
-    newDiv.innerHTML = `<div class='modal-container'>
+    newDiv.innerHTML = `
+    <div class='modal-container'>
+    <div class="modal-wrapper">
+    <div class="mobile-cancel mobile-cancel1"><img src="images/Cancel-mobile.png"></div>
+    <div class="mobile-cancel mobile-cancel2"><img src="images/abled.png"></div>
           <div class="modal-img">
           <img src=${project.image1} id="img1">
           <img src=${project.image2} id="img2">
           </div>
           <div class="modal-text">
           <h3>${project.name2}</h3> <div class="modal-btn modal-btn1">
-          <a class="btn" href=${project.liveLink}>See Live</a> <a href=${project.sourceLink} class="btn">See Source</a>
+          <a href=${project.liveLink}>See Live<span>  <img src="./images/Icon1.png" /></span></a> <a href=${project.sourceLink}>See Source<span><img src="./images/GitHub2.png" /></span></a>
           </div>
           </div>
           <div class=modal-list>
@@ -126,8 +128,13 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
           <p>${project.description}</p>
           <div class="modal-btn modal-btn2">
-          <a id="icon-button" href=${project.liveLink} class="btn">See Live</a> <a href=${project.sourceLink} class="btn">See Source</a>
+          <a href=${project.liveLink}>See Live<span>  <img src="./images/Icon1.png" /></span></a> <a href=${project.sourceLink}>See Source<span><img src="./images/GitHub2.png" /></span></a>
           </div>
-          </div>`;
+          </div>
+          </div
+          `;
+    document.querySelectorAll('.mobile-cancel').forEach((n) => n.addEventListener('click', () => {
+      popUp.classList.remove('active');
+    }));
   }));
 });
