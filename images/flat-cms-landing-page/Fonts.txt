@@ -1,0 +1,13 @@
+Fonts used in this design:
+
+Font: Lato
+Author: tyPoland Lukasz Dziedzic
+Url: http://www.fontsquirrel.com/fonts/lato
+
+Font: Poppins
+Author: Indian Type Foundry
+Url: https://www.fontsquirrel.com/fonts/poppins
+
+Font: Font Awesome
+Author: Dave Gandy
+Url: https://www.fontsquirrel.com/fonts/font-awesome
