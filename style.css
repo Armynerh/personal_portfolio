@@ -123,8 +123,9 @@
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    margin: 40px;
+    margin: 20px;
     padding: 20px;
+    border-radius: 10px;
   }
 
   .modal-pop.active {
@@ -417,10 +418,11 @@
   .modal-btn img {
     display: inline;
     margin: 0;
-    width: 12%;
+    width: 18px;
     position: relative;
-    bottom: -2px;
+    bottom: -3px;
     padding-left: 5px;
+    padding-top: 0;
   }
 
   .about-container {
@@ -571,11 +573,10 @@
   }
 
   .modal-btn2 {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
     text-align: center;
-    margin: 0;
   }
 
   .modal-btn1 {
@@ -588,17 +589,17 @@
 
   .modal-btn a {
     text-decoration: none;
-    margin: 0 5px;
     color: #fff;
     border: none;
     background: #36b37f;
-    width: 170px;
+    line-height: 48px;
     font-family: 'Inter', sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
     letter-spacing: 0.03em;
-    border-radius: 7px;
-    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 0 4px;
   }
 
   #support-txt {
@@ -824,7 +825,8 @@
   .modal-wrapper {
     background-color: #fff;
     margin: 90px;
-    padding: 10px;
+    padding: 40px;
+    border-radius: 10px;
   }
 
   .post-list ul {
@@ -1055,9 +1057,10 @@
   }
 
   .modal-btn1 {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    width: 311px;
   }
 }

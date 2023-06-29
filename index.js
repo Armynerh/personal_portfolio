@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
           <p>${project.description}</p>
           <div class="modal-btn modal-btn2">
-          <a href=${project.liveLink}>See Live<span>  <img src="./images/Icon1.png" /></span></a> <a href=${project.sourceLink}>See Source<span><img src="./images/GitHub2.png" /></span></a>
+          <a href=${project.liveLink}>See live<span>  <img src="./images/Icon1.png" /></span></a> <a href=${project.sourceLink}>See source<span><img src="./images/GitHub2.png" /></span></a>
           </div>
           </div>
           </div
