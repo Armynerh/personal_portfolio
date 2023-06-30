@@ -484,10 +484,24 @@
     padding: 15px;
   }
 
+  .message {
+    display: none;
+  }
+
+  .message.active {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #e63631;
+  }
+
   .form-container1 {
     background-image: url(images/Frame.svg);
     background-repeat: no-repeat;
-    background-position: right bottom 55px;
+    background-position: right bottom;
   }
 
   .form-container {
@@ -554,6 +568,7 @@
     font-size: 15px;
     line-height: 24px;
     color: #42526e;
+    margin-bottom: 15px;
   }
 
   .form-body button {
@@ -569,7 +584,7 @@
     color: #fff;
     border: none;
     background: #36b37f;
-    margin-top: 20px;
+    margin-top: 1px;
   }
 
   .modal-btn2 {
@@ -617,10 +632,11 @@
     text-align: center;
     color: #42526e;
     padding-right: 15px;
+    margin-bottom: 20px;
   }
 
   #socials {
-    margin-top: 40px;
+    margin-top: 70px;
   }
 
   #shape {
@@ -909,7 +925,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    margin: 0 130px;
+    margin: 20px 130px;
     padding-bottom: 120px;
   }
 

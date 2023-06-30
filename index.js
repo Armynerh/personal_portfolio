@@ -1,3 +1,4 @@
+// Nav-bar-menu
 const toggler = document.querySelector('.nav-toggle');
 const hamburgerMenu = document.querySelector('.hamburger-menu');
 const toggleIcon = document.querySelector('.toggle-icon');
@@ -12,6 +13,8 @@ toggleIcon.addEventListener('click', () => {
 document.querySelectorAll('.nav-item').forEach((n) => n.addEventListener('click', () => {
   hamburgerMenu.classList.remove('active');
 }));
+
+// project section with Pop up window
 
 const popUp = document.querySelector('.modal-pop');
 const newDiv = document.createElement('div');
@@ -79,6 +82,7 @@ const projects = [
   },
 ];
 
+// project section
 const works = document.querySelector('.grid-container');
 const newWorks = projects.map((project) => {
   const techlist = project.technologies.map((technology) => `<li>${technology}</li>`).join('');
@@ -103,6 +107,7 @@ const newWorks = projects.map((project) => {
 document.addEventListener('DOMContentLoaded', () => {
   works.innerHTML = newWorks;
 
+  // pop up window
   document.querySelectorAll('.project-btn').forEach((n, idx) => n.addEventListener('click', () => {
     popUp.classList.toggle('active');
     const project = projects[idx];
@@ -137,4 +142,23 @@ document.addEventListener('DOMContentLoaded', () => {
       popUp.classList.remove('active');
     }));
   }));
+});
+
+// contact form validation
+const email = document.querySelector('#email');
+const form = document.querySelector('#contact');
+const message = document.querySelector('.message');
+function isLowerCase(input) {
+  return input === String(input).toLowerCase();
+}
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const emailValue = email.value;
+  if (!isLowerCase(emailValue)) {
+    message.classList.add('active');
+  } else {
+    message.classList.remove('active');
+    form.submit();
+  }
 });
