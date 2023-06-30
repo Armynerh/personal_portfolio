@@ -152,13 +152,3 @@ function isLowerCase(input) {
   return input === String(input).toLowerCase();
 }
 
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-  const emailValue = email.value;
-  if (!isLowerCase(emailValue)) {
-    message.classList.add('active');
-  } else {
-    message.classList.remove('active');
-    form.submit();
-  }
-});
