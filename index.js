@@ -148,26 +148,25 @@ document.addEventListener('DOMContentLoaded', () => {
 const email = document.querySelector('#email');
 const form = document.querySelector('#contact');
 const message = document.querySelector('.message');
-function isLowerCase (input) {  
-  return input === String(input).toLowerCase()
+function isLowerCase(input) {
+  return input === String(input).toLowerCase();
 }
 
-form.addEventListener('submit', function (e) {
+form.addEventListener('submit', (e) => {
   e.preventDefault();
   const emailValue = email.value;
-    if (!isLowerCase(emailValue)) {
-      message.classList.add('active')
-        return;
-    } else {
-      message.classList.remove('active')
-      form.submit(); 
-    }
-})
+  if (!isLowerCase(emailValue)) {
+    message.classList.add('active');
+  } else {
+    message.classList.remove('active');
+    form.submit();
+  }
+});
 
 // local storage
 const fullname = document.querySelector('#fullname');
 const textMessage = document.querySelector('#textbox');
-form.addEventListener('submit', function() {
+form.addEventListener('submit', () => {
   const formInput = {
     fullname: fullname.value,
     email: email.value,
@@ -179,8 +178,8 @@ form.addEventListener('submit', function() {
 
 window.addEventListener('load', () => {
   const cached = localStorage.getItem('formInput');
-    const formData = JSON.parse(cached);
-    fullname.value = formData.fullname;
-    email.value = formData.email;
-    textMessage.value = formData.textMessage;
-  })
+  const formData = JSON.parse(cached);
+  fullname.value = formData.fullname;
+  email.value = formData.email;
+  textMessage.value = formData.textMessage;
+});
