@@ -483,12 +483,12 @@
     margin: 0 15px;
     padding: 15px;
   }
-  
-  .message{
+
+  .message {
     display: none;
   }
 
-  .message.active{
+  .message.active {
     display: block;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -497,6 +497,7 @@
     text-align: center;
     color: #e63631;
   }
+
   .form-container1 {
     background-image: url(images/Frame.svg);
     background-repeat: no-repeat;
