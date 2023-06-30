@@ -164,7 +164,14 @@ form.addEventListener('submit', (e) => {
 });
 
 // local storage
-
+const fullname = document.querySelector('#fullname');
+const textMessage = document.querySelector('#textbox');
+form.addEventListener('submit', () => {
+  const formInput = {
+    fullname: fullname.value,
+    email: email.value,
+    textMessage: textMessage.value,
+  };
 
   localStorage.setItem('formInput', JSON.stringify(formInput));
 });
