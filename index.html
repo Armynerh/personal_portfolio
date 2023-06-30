@@ -169,7 +169,7 @@
                     <h4>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h4>
                 </div>
                 <div class="form-body">
-                    <form action="https://formspree.io/f/xoqzoonb"
+                    <form id="contact" action="https://formspree.io/f/xoqzoonb"
                     method="POST">
                         <label type="hidden" for="fullname"></label>
                         <input type="text" name="fullname" id="fullname" class="text-field" placeholder="Full name" maxlength="30" required>
@@ -177,7 +177,10 @@
                         <input type="email" name="email" id="email" class="text-field" placeholder="Email address" required>
                         <label type="hidden" for="textbox"></label>
                         <textarea name="textbox" id="textbox" placeholder="Hey I’d like to connect to..." maxlength="500" required></textarea>
-                        <div class="btn2"><button class="btn form-button">Get in touch</button></div>
+                    
+                        <p class="message">Invalid! email must be in lowercase</p>
+                        <div class="btn2">
+                            <button type="submit"  class="btn form-button">Get in touch</button> </div>
                     </form>
                     <div id="support-txt">
                         <a href="mailto:kennyhenshaw001@icloud.com">kennyhenshaw001@icloud.com</a>
