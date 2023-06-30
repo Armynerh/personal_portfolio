@@ -176,10 +176,3 @@ form.addEventListener('submit', () => {
   localStorage.setItem('formInput', JSON.stringify(formInput));
 });
 
-window.addEventListener('load', () => {
-  const cached = localStorage.getItem('formInput');
-  const formData = JSON.parse(cached);
-  fullname.value = formData.fullname;
-  email.value = formData.email;
-  textMessage.value = formData.textMessage;
-});
