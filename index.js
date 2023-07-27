@@ -21,14 +21,14 @@ const newDiv = document.createElement('div');
 popUp.appendChild(newDiv);
 const projects = [
   {
-    name1: 'Multi-Post Stories Gain+Glory',
-    name2: 'Keeping track of hundreds of components',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
-    image1: 'images/Snapshoot-Portfolio.png',
-    image2: 'images/iPortfolio.png',
-    technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
-    liveLink: 'https://armynerh.github.io/personal_portfolio/',
-    sourceLink: 'See Source',
+    name1: 'To-Do List App',
+    name2: 'To-Do List App',
+    description: 'This is a To-do list app which you can use to add new task(s), Edit already added task, delete task(s) and clear task(s) you have marked as completed.',
+    image1: 'images/todo1.png',
+    image2: 'images/todo22.png',
+    technologies: ['Webpack', 'CSS', 'Javascript', 'HTML'],
+    liveLink: 'https://armynerh.github.io/todo-list-project/dist/',
+    sourceLink: 'https://github.com/Armynerh/todo-list-project',
   },
   {
     name1: 'Multi-Post Stories Gain+Glory',
