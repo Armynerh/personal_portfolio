@@ -350,6 +350,7 @@
     line-height: 32px;
     margin-top: 30px;
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
     color: #3a4a42;
@@ -390,7 +391,7 @@
     border-radius: 8px;
     width: 85%;
     justify-content: center;
-    margin: 20px;
+    margin: 20px auto;
   }
 
   .frame-card {
@@ -521,6 +522,10 @@
     line-height: 52px;
     text-align: center;
     color: #172b4d;
+  }
+
+  .items-container {
+    margin: auto;
   }
 
   #action img {
@@ -836,6 +841,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 100px;
+    
   }
 
   .modal-wrapper {
